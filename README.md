@@ -1,6 +1,6 @@
 <div align="center">
   
-#InstantMesh2gpu - Everything below, but just split across two cudo GPUs
+# InstantMesh2gpu - Everything below, but just split across two cudo GPUs
 
 <div align="left">
 
