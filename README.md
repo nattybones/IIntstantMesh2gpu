@@ -4,7 +4,7 @@
 
 <div align="left">
 
-Hello!  I am a non-programmer hobbiest that has wanted a text-to-3d-printing pipeline since firtt getting stable diffusion to run on my home computer. I could not get InstantMesh to run on a single RTX 3090 GPU (24GB), so I asked Claude3 to rewrite the code to split functions across two GPUs.  Claude returned a working copy on the first shot (after I perfected the prompt). I also have a version that supposedly increases the mesh output definition by 25%, but I am still testing.
+Hello!  I am a non-programmer hobbiest that has dreamt of a text-to-3d-printing pipeline since first getting Stable Diffusion to run on my home computer. I could not get InstantMesh to run on a single RTX 3090 GPU (24GB), so I asked Claude3 to rewrite the code to split functions across two GPUs.  Claude returned a working copy on the first shot (after I perfected the prompt). I also have a version that supposedly increases the mesh output definition by 25%, but I am still testing.
 
 Everything works the same as below, except you want to run 'app_2gpu.py' rather than 'app.py'
 
