@@ -1,5 +1,19 @@
 <div align="center">
   
+#InstantMesh2gpu - Everything below, but just split across two cudo GPUs
+
+Hello!  I am a non-programmer hobbiest that has wanted a text-to-3d-printing pipeline since fisrt getting stable diffusion to run on my home computer. I could not get InstantMesh to run on a single RTX 3090 GPU (24GB), so I asked Claude3 to rewrite the code to split functions across two GPUs.  Claude returned a working copy on the first shot (after I perfected the prompt).  I also have a version that supposedly increases the mesh output definition by 25%, but I am still testing.
+
+Everything works the same as below, except you want to run 'app_2gpu.py' rather than 'app.py'
+
+If you have any questions, I cannot stress enough that I largely have no idea what I'm doing.
+
+My workflow was Automatic1111 ---> InstantMesh2gpu ---> Orcaslicer ---> Creality K1
+
+The idea-to-object pipeline is open!
+
+<img src="https://github.com/nattybones/InstantMesh2gpu/blob/main/assets/puppy_input.jpg"></a><img src="https://github.com/nattybones/InstantMesh2gpu/blob/main/assets/cute_puppy.jpg"></a>
+
 # InstantMesh: Efficient 3D Mesh Generation from a Single Image with Sparse-view Large Reconstruction Models
 
 <a href="https://arxiv.org/abs/2404.07191"><img src="https://img.shields.io/badge/ArXiv-2404.07191-brightgreen"></a> 
@@ -70,6 +84,13 @@ To start a gradio demo in your local machine, simply running:
 ```bash
 python app.py
 ```
+
+## Start a local gradio demo using 2 gpus
+
+To start a gradio demo in your local machine using 2 cuda gpus, simply running:
+```bash
+python app_2gpu.py
+``` 
 
 ## Running with command line
 
