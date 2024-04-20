@@ -12,7 +12,7 @@ My workflow was Automatic1111 ---> InstantMesh2gpu ---> Orcaslicer ---> Creality
 
 The idea-to-object pipeline is open!
 
-<img src="https://github.com/nattybones/InstantMesh2gpu/blob/main/assets/puppy_input.jpg"></a><img src="https://github.com/nattybones/InstantMesh2gpu/blob/main/assets/cute_puppy.jpg"></a>
+<img src="https://github.com/nattybones/InstantMesh2gpu/blob/main/assets/puppy_input.png"></a><img src="https://github.com/nattybones/InstantMesh2gpu/blob/main/assets/cute_puppy.jpg"></a>
 
 # InstantMesh: Efficient 3D Mesh Generation from a Single Image with Sparse-view Large Reconstruction Models
 
